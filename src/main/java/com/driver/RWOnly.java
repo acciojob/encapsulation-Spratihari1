@@ -3,15 +3,15 @@ package com.driver;
 public class RWOnly {
     private  String name;
 
-    public void readOnly (){
+    public String readOnly (){
 
-        System.out.println(name);
+       return  name;
 
     }
 
-    public void writeOnly (String n){
+    public void writeOnly (String name){
 
-        this.name=n;
+        this.name=name;
     }
 
     
