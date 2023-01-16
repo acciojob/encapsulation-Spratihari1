@@ -3,13 +3,13 @@ package com.driver;
 public class RWOnly {
     private  String name;
 
-    public void getname(){
+    public void readOnly (){
 
         System.out.println(name);
 
     }
 
-    public void setName(String n){
+    public void writeOnly (String n){
 
         this.name=n;
     }
